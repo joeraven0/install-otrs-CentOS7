@@ -6,19 +6,19 @@
 
 `$ nmtui`
 [Activate network CentOS7](https://www.krizna.com/centos/setup-network-centos-7/)
-#### . Autostart apache on reboot
+#### 3. Autostart apache on reboot
 `$ sudo systemctl enable httpd`
 
 `$ sudo systemctl start mariadb`
 
-#### 3. Install wget and download OTRS installation file
+#### 4. Install wget and download OTRS installation file
 `$ sudo yum install wget`
 
 `$ sudo wget 'X.X.X.X/otrs.rpm`
-#### 4. Install OTRS
+#### 5. Install OTRS
 [OTRS6 nstallation instruction](https://doc.otrs.com/doc/manual/admin/6.0/en/html/installation.html#installation-on-centos)
 
-#### . Configure database
+#### 6. Configure database
 `$ sudo systemctl enable mariadb`
 
 `$ sudo systemctl start mariadb`
@@ -33,7 +33,7 @@
 
 `> FLUSH PRIVILEGES;`
 
-#### . Stop firewall and visit configure page
+#### 7. Stop firewall and visit configure page
 `$ sudo systemctl disable firewalld`
 
 `$ sudo systemctl stop firewalld`
