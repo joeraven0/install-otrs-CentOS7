@@ -31,5 +31,7 @@
 
 `> GRANT ALL PRIVILEGES ON databasename.* TO 'username'@'localhost' IDENTIFIED BY 'password';`
 
+`> FLUSH PRIVILEGES;`
+
 #### . Stop firewall and visit configure page
-`$ sudo systemctl stop firewalld`
+`$ sudo systemctl disable firewalld`
