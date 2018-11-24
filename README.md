@@ -6,8 +6,9 @@
 ```$ nmtui```
 [Activate network CentOS7](https://www.krizna.com/centos/setup-network-centos-7/)
 #### . Autostart apache on reboot
-```$ sudo systemctl enable httpd```
-```$ sudo systemctl start mariadb```
+`$ sudo systemctl enable httpd`
+
+`$ sudo systemctl start mariadb`
 
 #### 3. Install wget and download OTRS installation file
 ```$ sudo yum install wget```
