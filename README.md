@@ -35,3 +35,5 @@
 
 #### . Stop firewall and visit configure page
 `$ sudo systemctl disable firewalld`
+
+`$ sudo systemctl stop firewalld`
