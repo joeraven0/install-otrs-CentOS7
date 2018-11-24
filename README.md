@@ -2,8 +2,4 @@
 
 #### 1. Install CentOS7
 #### 2. Activate network
-```
-$-- nmcli d
-```
-
-`test`
+`$` `nmcli d`
